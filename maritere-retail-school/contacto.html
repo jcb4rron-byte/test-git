@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto · Maritere Retail School</title>
+  <meta name="description" content="Pide una propuesta de formación para los empleados y encargados de tienda de tu empresa. Respuesta en 48 horas laborables.">
+  <link rel="canonical" href="https://maritere.es/contacto.html">
+  <meta name="theme-color" content="#fbfaf8">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Maritere Retail School">
+  <meta property="og:title" content="Contacto · Maritere Retail School">
+  <meta property="og:description" content="Pide una propuesta de formación para los empleados y encargados de tienda de tu empresa. Respuesta en 48 horas laborables.">
+  <meta property="og:url" content="https://maritere.es/contacto.html">
+  <meta property="og:locale" content="es_ES">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">Maritere Retail School<small>Formación práctica para equipos de tienda</small></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú"><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="cursos.html">Cursos</a></li>
+          <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+        </ul>
+        <a class="btn btn--primary" href="contacto.html">Pedir propuesta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Contacto</span>
+        <h1>Pide una propuesta para tu empresa</h1>
+        <p class="lead">Rellena el formulario y te respondemos en un máximo de 48 horas laborables con una propuesta adaptada.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div>
+          <h2>Qué nos ayuda a preparar la propuesta</h2>
+          <ul class="card" style="padding-left:2.5rem">
+            <li>Número de tiendas y de personas a formar</li>
+            <li>Perfiles: empleados, encargados, equipo online</li>
+            <li>Cursos que te interesan o problema a resolver</li>
+            <li>Modalidad preferida y fechas aproximadas</li>
+          </ul>
+          <ul class="contact-list">
+            <li><strong>Email</strong><a href="mailto:info@maritere.es">info@maritere.es</a></li>
+            <li><strong>Ámbito</strong>Toda España · presencial y online</li>
+            <li><strong>Clientes</strong>Solo empresas</li>
+          </ul>
+        </div>
+        <!-- Sin backend todavía (Master Plan 5.7: web básica, sin checkout ni LMS). El formulario abre el correo del usuario. -->
+        <form class="form" action="mailto:info@maritere.es" method="post" enctype="text/plain">
+          <div class="field"><label for="nombre">Nombre y apellidos</label><input id="nombre" name="nombre" type="text" autocomplete="name" required></div>
+          <div class="field"><label for="cargo">Cargo</label><input id="cargo" name="cargo" type="text" autocomplete="organization-title" placeholder="RRHH, formación, operaciones…"></div>
+          <div class="field"><label for="empresa">Empresa</label><input id="empresa" name="empresa" type="text" autocomplete="organization" required></div>
+          <div class="field"><label for="email">Email de empresa</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+          <div class="field"><label for="telefono">Teléfono</label><input id="telefono" name="telefono" type="tel" autocomplete="tel"></div>
+          <div class="field"><label for="personas">Personas a formar</label>
+            <select id="personas" name="personas">
+              <option>1–10</option><option>11–50</option><option>51–200</option><option>Más de 200</option>
+            </select>
+          </div>
+          <div class="field full"><label for="curso">Curso de interés</label>
+            <select id="curso" name="curso">
+              <option value="">Aún no lo sé / varios</option>
+                <option value="atencion-cliente">Atención al cliente en tienda</option>
+                <option value="visual-merchandising-basico">Visual merchandising operativo</option>
+                <option value="caja-omnicanalidad">Caja y omnicanalidad</option>
+                <option value="encargado-tienda">Encargado de tienda: equipo y resultados</option>
+                <option value="tienda-online">Atención al cliente en tienda online</option>
+                <option value="incorporacion">Primeros días en tienda</option>
+            </select>
+          </div>
+          <div class="field full"><label for="mensaje">Cuéntanos tu caso</label><textarea id="mensaje" name="mensaje"></textarea></div>
+          <label class="check full"><input type="checkbox" name="privacidad" required> Acepto que Maritere Retail School use estos datos para responder a mi solicitud.</label>
+          <div class="full"><button class="btn btn--primary" type="submit">Enviar solicitud</button></div>
+          <p class="form-note full">Solo usamos tus datos para contestar a esta solicitud.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p><strong style="color:var(--text)">Maritere Retail School</strong><br>Formación básica y práctica para empleados y encargados de tienda física y online. Solo para empresas.</p>
+        </div>
+        <div>
+          <h2>Web</h2>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Contacto</h2>
+          <ul>
+            <li><a href="mailto:info@maritere.es">info@maritere.es</a></li>
+            <li>Zamora · España</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Maritere Retail School</span>
+        <span>Una escuela de <a href="https://maisonbarron.es" rel="noopener">Maison BARRON</a></span>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

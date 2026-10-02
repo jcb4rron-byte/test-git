@@ -1,7 +1,6 @@
 /* Maritere Retail School — interacciones mínimas (sin dependencias) */
 (function () {
   "use strict";
-  document.documentElement.classList.add("js");
 
   // Menú móvil
   var toggle = document.querySelector(".nav-toggle");
@@ -20,26 +19,10 @@
     });
   }
 
-  // Revelado progresivo, como la apertura de un escaparate
-  var items = document.querySelectorAll(".reveal");
-  if ("IntersectionObserver" in window) {
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("is-visible");
-          io.unobserve(entry.target);
-        }
-      });
-    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
-    items.forEach(function (el) { io.observe(el); });
-  } else {
-    items.forEach(function (el) { el.classList.add("is-visible"); });
-  }
-
-  // Preselección de programa desde ?programa=slug
-  var select = document.getElementById("programa");
+  // Preselección de curso desde ?curso=slug (enlaces del catálogo)
+  var select = document.getElementById("curso");
   if (select) {
-    var match = /[?&]programa=([^&]+)/.exec(window.location.search);
+    var match = /[?&]curso=([^&]+)/.exec(window.location.search);
     if (match) select.value = decodeURIComponent(match[1]);
   }
 
