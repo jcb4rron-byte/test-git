@@ -185,3 +185,26 @@ p { margin: 0 0 1rem; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
+
+/* ---------- Precios y catálogo práctico ---------- */
+.price { font-size: 1.6rem; font-weight: 700; color: var(--text); line-height: 1.1; margin: .25rem 0 .1rem; }
+.price small { font-size: .85rem; font-weight: 400; color: var(--muted); }
+.takeaway { background: var(--surface-2); border-radius: 6px; padding: .6rem .8rem; font-size: .9rem; color: var(--text-2); margin-bottom: 1rem; }
+.takeaway strong { color: var(--text); }
+.card--featured { border: 2px solid var(--accent); }
+.badge { align-self: flex-start; font-size: .72rem; font-weight: 700; color: #fff; background: var(--accent); padding: .2rem .6rem; border-radius: 999px; margin-bottom: .75rem; }
+.group-title { margin: 2.5rem 0 1rem; font-size: 1.3rem; }
+.group-title:first-child { margin-top: 0; }
+
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+table { width: 100%; border-collapse: collapse; min-width: 560px; }
+th, td { text-align: left; padding: .85rem 1rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); background: var(--surface-2); }
+tr:last-child td { border-bottom: 0; }
+td.num { font-weight: 700; white-space: nowrap; }
+
+.stats { display: grid; gap: 1rem; grid-template-columns: repeat(2, 1fr); margin-top: 2rem; }
+@media (min-width: 720px) { .stats { grid-template-columns: repeat(4, 1fr); } }
+.stat { background: var(--surface-2); border-radius: var(--radius); padding: 1rem; }
+.stat b { display: block; font-size: 1.5rem; color: var(--accent); }
+.stat span { font-size: .88rem; color: var(--text-2); }

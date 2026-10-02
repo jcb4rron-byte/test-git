@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contacto · Maritere Retail School</title>
-  <meta name="description" content="Pide una propuesta de formación para los empleados y encargados de tienda de tu empresa. Respuesta en 48 horas laborables.">
+  <meta name="description" content="Pide una propuesta de formación práctica para los empleados y encargados de tienda de tu empresa. Respuesta en 48 horas laborables.">
   <link rel="canonical" href="https://maritere.es/contacto.html">
   <meta name="theme-color" content="#fbfaf8">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Maritere Retail School">
   <meta property="og:title" content="Contacto · Maritere Retail School">
-  <meta property="og:description" content="Pide una propuesta de formación para los empleados y encargados de tienda de tu empresa. Respuesta en 48 horas laborables.">
+  <meta property="og:description" content="Pide una propuesta de formación práctica para los empleados y encargados de tienda de tu empresa. Respuesta en 48 horas laborables.">
   <meta property="og:url" content="https://maritere.es/contacto.html">
   <meta property="og:locale" content="es_ES">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
@@ -29,6 +29,7 @@
         <ul>
           <li><a href="index.html">Inicio</a></li>
           <li><a href="cursos.html">Cursos</a></li>
+          <li><a href="precios.html">Precios</a></li>
           <li><a href="contacto.html" aria-current="page">Contacto</a></li>
         </ul>
         <a class="btn btn--primary" href="contacto.html">Pedir propuesta</a>
@@ -41,7 +42,7 @@
       <div class="container">
         <span class="eyebrow">Contacto</span>
         <h1>Pide una propuesta para tu empresa</h1>
-        <p class="lead">Rellena el formulario y te respondemos en un máximo de 48 horas laborables con una propuesta adaptada.</p>
+        <p class="lead">Te respondemos en un máximo de 48 horas laborables con una propuesta cerrada: cápsulas, formato, fechas y precio.</p>
       </div>
     </section>
 
@@ -51,9 +52,9 @@
           <h2>Qué nos ayuda a preparar la propuesta</h2>
           <ul class="card" style="padding-left:2.5rem">
             <li>Número de tiendas y de personas a formar</li>
-            <li>Perfiles: empleados, encargados, equipo online</li>
-            <li>Cursos que te interesan o problema a resolver</li>
-            <li>Modalidad preferida y fechas aproximadas</li>
+            <li>Perfiles: empleados, encargados, nuevas incorporaciones</li>
+            <li>Qué quieres mejorar: atención, orden, caja, pedidos online…</li>
+            <li>Formato preferido: online, en tienda o academia anual</li>
           </ul>
           <ul class="contact-list">
             <li><strong>Email</strong><a href="mailto:info@maritere.es">info@maritere.es</a></li>
@@ -64,24 +65,36 @@
         <!-- Sin backend todavía (Master Plan 5.7: web básica, sin checkout ni LMS). El formulario abre el correo del usuario. -->
         <form class="form" action="mailto:info@maritere.es" method="post" enctype="text/plain">
           <div class="field"><label for="nombre">Nombre y apellidos</label><input id="nombre" name="nombre" type="text" autocomplete="name" required></div>
-          <div class="field"><label for="cargo">Cargo</label><input id="cargo" name="cargo" type="text" autocomplete="organization-title" placeholder="RRHH, formación, operaciones…"></div>
+          <div class="field"><label for="cargo">Cargo</label><input id="cargo" name="cargo" type="text" autocomplete="organization-title" placeholder="RRHH, formación, encargado…"></div>
           <div class="field"><label for="empresa">Empresa</label><input id="empresa" name="empresa" type="text" autocomplete="organization" required></div>
           <div class="field"><label for="email">Email de empresa</label><input id="email" name="email" type="email" autocomplete="email" required></div>
           <div class="field"><label for="telefono">Teléfono</label><input id="telefono" name="telefono" type="tel" autocomplete="tel"></div>
-          <div class="field"><label for="personas">Personas a formar</label>
-            <select id="personas" name="personas">
-              <option>1–10</option><option>11–50</option><option>51–200</option><option>Más de 200</option>
-            </select>
+          <div class="field"><label for="tiendas">Número de tiendas</label>
+            <select id="tiendas" name="tiendas"><option>1</option><option>2–5</option><option>6–20</option><option>Más de 20</option></select>
           </div>
-          <div class="field full"><label for="curso">Curso de interés</label>
+          <div class="field full"><label for="curso">Me interesa</label>
             <select id="curso" name="curso">
-              <option value="">Aún no lo sé / varios</option>
-                <option value="atencion-cliente">Atención al cliente en tienda</option>
-                <option value="visual-merchandising-basico">Visual merchandising operativo</option>
-                <option value="caja-omnicanalidad">Caja y omnicanalidad</option>
-                <option value="encargado-tienda">Encargado de tienda: equipo y resultados</option>
-                <option value="tienda-online">Atención al cliente en tienda online</option>
-                <option value="incorporacion">Primeros días en tienda</option>
+              <option value="">Aún no lo sé, quiero orientación</option>
+                <option value="capsula-online">Cápsula online en directo (19 € / persona)</option>
+                <option value="taller-tienda">Taller en tu tienda (290 € / grupo)</option>
+                <option value="pack-primera-semana">Pack Primera Semana (59 € / persona)</option>
+                <option value="programa-encargados">Programa Encargados (129 € / persona)</option>
+                <option value="diagnostico-tienda">Diagnóstico de tienda (149 € / tienda)</option>
+                <option value="academia-empresa">Academia de empresa (290 € / tienda / año)</option>
+                <option value="atencion-5-pasos">Cápsula: Atender al cliente en 5 pasos</option>
+                <option value="venta-adicional">Cápsula: Venta adicional sin presionar</option>
+                <option value="quejas-devoluciones">Cápsula: Quejas, cambios y devoluciones</option>
+                <option value="probador">Cápsula: Un probador que vende</option>
+                <option value="tienda-15-minutos">Cápsula: Tienda lista en 15 minutos</option>
+                <option value="vm-operativo">Cápsula: Visual merchandising operativo</option>
+                <option value="prevencion-perdidas">Cápsula: Prevención de pérdidas básica</option>
+                <option value="caja-sin-errores">Cápsula: Caja sin errores</option>
+                <option value="pedidos-online-tienda">Cápsula: Pedidos online en tienda</option>
+                <option value="atencion-online">Cápsula: Atención por chat, email y redes</option>
+                <option value="briefing-10-minutos">Cápsula: El briefing de 10 minutos</option>
+                <option value="numeros-tienda">Cápsula: Los 4 números de tu tienda</option>
+                <option value="turnos-cuadrantes">Cápsula: Turnos y cuadrantes sin dramas</option>
+                <option value="primer-dia">Cápsula: Primer día en tienda</option>
             </select>
           </div>
           <div class="field full"><label for="mensaje">Cuéntanos tu caso</label><textarea id="mensaje" name="mensaje"></textarea></div>
@@ -104,6 +117,7 @@
           <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="precios.html">Precios</a></li>
             <li><a href="contacto.html">Contacto</a></li>
           </ul>
         </div>
