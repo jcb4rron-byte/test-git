@@ -116,8 +116,8 @@ Reglas:
 | FRT | Reuniones con empresas | Respuestas y presupuestos enviados |
 | Barronico agencia | Reuniones agendadas | Respuestas a correos |
 | Barronico taller | Llamadas y mensajes desde la ficha de Google | Reseñas nuevas |
-| Barronico concept store | Suscriptores a la lista de aviso | — |
-| MANTA ZAMORANA | Altas en lista de espera | — |
+| Barronico concept store | Suscriptores a la lista de aviso |, |
+| MANTA ZAMORANA | Altas en lista de espera |, |
 
 ## 9. Hoja de ruta
 
