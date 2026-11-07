@@ -189,7 +189,7 @@ Blogs de las cinco marcas, indexación semanal en Search Console, radar de mejor
 - **Otras búsquedas:** «agencia de visual merchandising» está en posición 51,6, lejos de la primera página.
 - **Solo veo la propiedad barronvisual.com.** Las otras (FRT, MariTere, Barronico…) no aparecen con esta cuenta. GA4 no es accesible desde aquí.
 - **Ficha de Google de MariTere:** creada el 2 oct sin dirección visible. Falta que JCB la verifique y que cree `info@maritere.es`.
-- **Dirección:** `CLAUDE.md` pone el estudio en Balborraz 16 y la web de Barronico, el local en Balborraz 14. Hay que confirmar cuál es cuál para que el nombre, la dirección y el teléfono coincidan en todas las fichas.
+- **Direcciones (confirmadas por JCB, 7 nov 2026):** BARRONVISUAL y Maison Barron están en Balborraz 16 (JCB indicó «16, 3»; probablemente la planta, por confirmar). Barronico, la tienda física que está a punto de abrir, está en Balborraz 14. Son dos locales distintos: cada uno necesita su propia ficha de Google, con el mismo nombre, dirección y teléfono en todas partes. MariTere sigue sin dirección visible, para no ser la tercera empresa en Balborraz 16.
 - **Gmail:** hay 2 borradores de backlinks sin enviar desde el 1 oct (Cámara de Comercio de Zamora y AZECO). **Se quedan como borrador: JCB no quiere enviar ningún correo todavía.**
 
 ### 12.7 Primeros pasos concretos
