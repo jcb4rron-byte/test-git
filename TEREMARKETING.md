@@ -11,8 +11,8 @@ Conseguir ventas y reuniones comerciales para, por este orden:
 
 1. **BARRONVISUAL**: servicios de visual merchandising, escaparatismo, consultoría y web/SEO.
 2. **MARITERE**: Diagnóstico de tienda (149 €), cápsulas formativas y Academia de empresa.
-3. **Fashion Retail Talent (FRT)**: `[COMPLETAR: qué se vende exactamente y a quién (empresas, candidatos o ambos), precio y llamada a la acción]`.
-4. **Barronico**: `[COMPLETAR: productos y precios actuales]`.
+3. **Fashion Retail Talent (FRT)**: solo vende a empresas. Precios por definir con una investigación de mercado (la hace su agente, ver sección 7).
+4. **Barronico**: tres líneas: concept store (producto propio y personalizado, aún sin subir a la web), taller (arreglos de ropa) y agencia de marketing digital e IA, especializada en tiendas, comercios y marcas de retail.
 5. **MANTA ZAMORANA**: sin producto hasta febrero. Solo lista de espera.
 6. **BARRON ACCESS**: suscripciones de 95, 295 y 995 €. Pendiente de probar con claves `sk_test_`.
 
@@ -76,9 +76,13 @@ Reglas:
 ## 7. Plan por producto
 
 ### BARRONVISUAL
-- Cliente ideal: `[COMPLETAR: marcas, tiendas independientes o grandes cadenas]`.
+- Tres entradas con compradores distintos (hipótesis a validar, ver nota):
+  - **Estudio** (diseño, escaparates, proyectos): marcas de moda, calzado, joyería y decoración con 2 a 20 tiendas propias, y comercios independientes premium. Decide: dirección de marca o de retail, responsable de VM, propietario.
+  - **Consultoría** (guías de VM, rollouts, phygital): cadenas y marcas medianas con 5 a 100 tiendas que necesitan coherencia entre puntos de venta. Decide: dirección de retail, operaciones o marketing. Ventaja: español y francés.
+  - **Academia** (cursos online): escaparatistas y VM junior, estudiantes, dependientes que ascienden a encargados, y dueños de tienda pequeña. Se vende con embudo (checklist → secuencia de email → curso), no con correo en frío. Los cursos tienen precio fijo visible.
+- Prioridad de venta activa: Consultoría y Estudio con marcas de 3 a 30 tiendas en España y Francia. La Academia se vende con el embudo y el SEO.
 - Gancho: casos de estudio (Chanel, Zara Francia, Lladró, Galeries Lafayette) y menciones de prensa.
-- Oferta de entrada: `[COMPLETAR]`.
+- Oferta de entrada: `[COMPLETAR: precios del Estudio y la Consultoría, que no he podido ver]`.
 - Secuencia: correo 1 con caso → seguimiento a los 7 días → seguimiento a los 14 → cierre educado.
 - Bloqueantes de Juan Carlos: rellenar los 4 casos, enviar los borradores de backlinks.
 
@@ -90,11 +94,14 @@ Reglas:
 - Bloqueantes: verificar la ficha de Google, crear el buzón `info@maritere.es`, subir el material de Academia.
 
 ### Fashion Retail Talent
-- `[COMPLETAR: qué ofrece a empresas y a candidatos]`.
-- Propuesta de arranque: lista de leads por lado del mercado, un correo de presentación por lado, y una página de captación con formulario.
+- Solo vende a empresas (marcas y cadenas de moda, lujo y retail que contratan o forman talento).
+- **Misión del agente FRT, semanas 1-2: investigación de precios.** Entregable: tabla de 10 a 15 competidores (agencias de selección de retail y moda, bolsas de empleo sectoriales, consultoras de talento) con modelo de precio, tarifa pública, servicios y público. Modelos a comparar: honorarios por selección (fijo o porcentaje del salario anual), suscripción por publicación de ofertas, y paquetes por volumen. Resultado: tres escenarios de precio con su justificación. Las cifras no se inventan: cada una lleva su fuente, y lo que no sea público se marca como no disponible.
+- Después: lista de leads de empresas, un correo de presentación y una página de captación con formulario.
 
 ### Barronico
-- `[COMPLETAR]`. Se aplica el mismo motor: una pieza por semana y lista de correo.
+- **Agencia de marketing digital e IA** (especializada en tiendas, comercios y marcas de retail): es la línea B2B. Cliente: comercios y marcas con 1 a 10 tiendas. Decisión de posicionamiento pendiente: separar bien su oferta de la de BARRONVISUAL (que es diseño visual y phygital) para no competir entre ellas.
+- **Taller (arreglos de ropa):** venta local. Se trabaja con ficha de Google, SEO local y WhatsApp, no con correo en frío.
+- **Concept store:** sin producto en la web, no se vende aún. Hasta entonces: captar correos y enseñar el proceso en contenido. Cuando haya producto, se trata como Manta Zamorana.
 
 ### MANTA ZAMORANA
 - Solo lista de espera con aviso de lanzamiento en febrero. Sin campañas hasta tener producto.
@@ -105,8 +112,10 @@ Reglas:
 |---|---|---|
 | BARRONVISUAL | Reuniones agendadas | Respuestas a correos, leads desde la web |
 | MARITERE | Diagnósticos vendidos | Consultas de Academia de empresa |
-| FRT | `[COMPLETAR]` | Altas y contactos |
-| Barronico | `[COMPLETAR]` | Suscriptores |
+| FRT | Reuniones con empresas | Respuestas y presupuestos enviados |
+| Barronico agencia | Reuniones agendadas | Respuestas a correos |
+| Barronico taller | Llamadas y mensajes desde la ficha de Google | Reseñas nuevas |
+| Barronico concept store | Suscriptores a la lista de aviso | — |
 | MANTA ZAMORANA | Altas en lista de espera | — |
 
 ## 9. Hoja de ruta
@@ -125,8 +134,12 @@ Reglas:
 
 ## 11. Decisiones pendientes
 
-1. Cliente ideal y oferta de entrada de BARRONVISUAL.
-2. Qué vende exactamente FRT y a quién.
-3. Qué vende Barronico y a qué precio.
-4. Dónde vive el CRM: Google Sheets o Brevo.
-5. Qué día de la semana se envían los correos.
+**Decididas**
+- **CRM:** Google Sheets. Gratis, sin límites de contactos y los agentes lo leen y escriben fácilmente. Brevo queda solo para listas con consentimiento (newsletter, secuencia del Checklist), no para correo en frío.
+- **Envío del correo en frío:** desde buzones reales (Titan/Gmail), uno a uno y personalizado, no desde Brevo.
+- **Ritmo de envío:** empezar con 5 a 10 correos al día, de martes a jueves entre las 9:30 y las 11:00, subiendo poco a poco para cuidar la reputación del dominio. Empieza cuando estén listos los casos de estudio y el CRM.
+
+**Pendientes de Juan Carlos**
+1. Validar los tres perfiles de cliente de BARRONVISUAL (sección 7).
+2. Precios del Estudio y la Consultoría.
+3. Decidir cómo se separa la agencia de Barronico de BARRONVISUAL.
