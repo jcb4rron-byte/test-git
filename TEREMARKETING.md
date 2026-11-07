@@ -19,6 +19,7 @@ Conseguir ventas y reuniones comerciales para, por este orden:
 ## 2. Principios
 
 - **Los agentes proponen, Juan Carlos aprueba y envía.** Ningún agente envía correos, publica ni cobra por su cuenta.
+- **Puerta de arranque (JCB, 7 nov 2026):** no se contacta con ninguna empresa ni institución, ni se envía ningún correo comercial, hasta que JCB lo decida. Todavía no está dado de alta en la Seguridad Social ni en la Cámara de Comercio. Hasta entonces el sistema solo prepara: investigación, listas, borradores y guías. Qué altas hacen falta y cuándo se puede empezar a vender lo valida JCB con su gestor.
 - **Gasto cero nuevo.** Se usan Claude, Claude Code, GitHub, Vercel, Titan, Brevo (plan gratuito), GA4, Search Console, Looker Studio, Gmail, Calendar y Google Sheets.
 - **Una sola fuente de verdad.** Este documento y el `CLAUDE.md` del monorepo `master-plan-barron`.
 - **Cada marca con su voz.** Ningún texto sale sin pasar por la guía de voz de su marca.
@@ -122,8 +123,8 @@ Reglas:
 ## 9. Hoja de ruta
 
 - **Semana 1:** completar los `[COMPLETAR]`, crear la hoja CRM, definir el perfil de cliente ideal por marca.
-- **Semana 2:** 20 leads de BARRONVISUAL y 20 de MARITERE, primeros 10 correos enviados.
-- **Semana 3:** rutina del lunes activa y primer seguimiento a los 7 días.
+- **Semana 2:** 20 leads de BARRONVISUAL y 20 de MARITERE y sus borradores listos, sin enviar nada.
+- **Semana 3:** rutina del lunes activa (solo informe). Los envíos y el seguimiento a los 7 días empiezan cuando JCB abra la puerta de arranque.
 - **Semana 4:** revisión de resultados, decisión de qué agente automatizar más.
 
 ## 10. Riesgos y reglas
@@ -189,13 +190,13 @@ Blogs de las cinco marcas, indexación semanal en Search Console, radar de mejor
 - **Solo veo la propiedad barronvisual.com.** Las otras (FRT, MariTere, Barronico…) no aparecen con esta cuenta. GA4 no es accesible desde aquí.
 - **Ficha de Google de MariTere:** creada el 2 oct sin dirección visible. Falta que JCB la verifique y que cree `info@maritere.es`.
 - **Dirección:** `CLAUDE.md` pone el estudio en Balborraz 16 y la web de Barronico, el local en Balborraz 14. Hay que confirmar cuál es cuál para que el nombre, la dirección y el teléfono coincidan en todas las fichas.
-- **Gmail:** hay 2 borradores de backlinks sin enviar desde el 1 oct: Cámara de Comercio de Zamora y AZECO. Son los dos primeros contactos locales para la Auditoría y MariTere.
+- **Gmail:** hay 2 borradores de backlinks sin enviar desde el 1 oct (Cámara de Comercio de Zamora y AZECO). **Se quedan como borrador: JCB no quiere enviar ningún correo todavía.**
 
 ### 12.7 Primeros pasos concretos
-1. JCB envía los 2 borradores de Gmail pendientes.
-2. JCB comprueba y verifica la ficha de Google de MariTere.
-3. Se crea la hoja CRM y el agente de prospección carga 10 leads de BARRONVISUAL y 10 de MariTere en Zamora y Castilla y León.
+1. **No enviar los 2 borradores de Gmail ni ningún otro correo hasta que JCB lo decida** (pendiente su alta en la Seguridad Social y en la Cámara de Comercio).
+2. JCB verifica la ficha de Google de MariTere.
+3. Se crea la hoja CRM y el agente de prospección carga 10 leads de BARRONVISUAL y 10 de MariTere en Zamora y Castilla y León, solo como lista interna.
 4. Se crea la página de CÓDIGO para búsquedas locales («agencia de marketing digital en Zamora»).
-5. Se arranca la newsletter de CÓDIGO el jueves siguiente a tener 20 suscriptores o, como máximo, el 20 de noviembre.
+5. La newsletter de CÓDIGO se prepara pero no arranca hasta que JCB abra la puerta de arranque (la fecha del 20 de noviembre queda anulada).
 6. Se renuevan las claves de Vercel, Brevo y Supabase para leer su estado.
 
