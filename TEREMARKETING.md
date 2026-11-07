@@ -85,7 +85,7 @@ Reglas:
 - Prioridad de venta activa: Auditoría (490 €) y Estudio con comercios y marcas de 1 a 30 tiendas en España y Francia.
 - Gancho: casos de estudio (Chanel, Zara Francia, Lladró, Galeries Lafayette, Printemps, Maison Margiela) y menciones de prensa.
 - Secuencia: correo 1 con caso → seguimiento a los 7 días → seguimiento a los 14 → cierre educado.
-- Bloqueantes de Juan Carlos: rellenar los 4 casos, enviar los borradores de backlinks.
+- Bloqueantes de Juan Carlos: rellenar los 4 casos. Los borradores de backlinks se quedan sin enviar hasta que él lo decida.
 
 ### MARITERE
 - Oferta de entrada: **Diagnóstico de tienda, 149 €**, con hoja de visita, informe y plan de formación.
