@@ -1,0 +1,16 @@
+# BARRONVISUAL Check
+
+> Aplicación web de BARRONVISUAL que revisa fotos de escaparates, mesas, lineales, probadores, fachadas e interiores de tiendas físicas con el método BARRONSYSTEM de visual merchandising, mediante inteligencia artificial. Devuelve una puntuación de 0 a 100 (8 criterios de 0 a 3), las tres mejoras prioritarias y un plan de 30, 60 y 90 días. También compara la tienda con su web (coherencia phygital) y propone ideas de escaparate por campaña.
+
+- Producto de BARRONVISUAL (https://barronvisual.com), estudio de visual merchandising y escaparatismo de Juan Carlos Barrón, grupo Maison Barron (https://www.maisonbarron.es).
+- Idioma: español.
+- Planes: Gratis (1 revisión con foto y 1 idea de escaparate al día) y Pro (9,99 €/mes, IVA incluido).
+- Los informes los genera un modelo de inteligencia artificial y son orientativos.
+
+## Páginas
+
+- [Inicio](/): qué hace, cómo funciona y los 8 criterios
+- [Precios](/precios): planes Gratis y Pro
+- [Programa de afiliados](/afiliados): condiciones para recomendar la aplicación
+- [Condiciones de suscripción](/condiciones)
+- [Política de privacidad](/privacidad)
